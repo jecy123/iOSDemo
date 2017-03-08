@@ -12,6 +12,10 @@
 		AFD1FCA41E6F9EF800A9562C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1FCA21E6F9EF800A9562C /* Main.storyboard */; };
 		AFD1FCA61E6F9EF800A9562C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD1FCA51E6F9EF800A9562C /* Assets.xcassets */; };
 		AFD1FCA91E6F9EF800A9562C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1FCA71E6F9EF800A9562C /* LaunchScreen.storyboard */; };
+		AFD1FCB31E6FA90400A9562C /* Tab1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1FCB21E6FA90400A9562C /* Tab1.storyboard */; };
+		AFD1FCB51E6FA91400A9562C /* Tab2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1FCB41E6FA91400A9562C /* Tab2.storyboard */; };
+		AFD1FCB71E6FA92000A9562C /* Tab3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1FCB61E6FA92000A9562C /* Tab3.storyboard */; };
+		AFD1FCB91E6FBD7F00A9562C /* TGCToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1FCB81E6FBD7F00A9562C /* TGCToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		AFD1FCA51E6F9EF800A9562C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFD1FCA81E6F9EF800A9562C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFD1FCAA1E6F9EF800A9562C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFD1FCB21E6FA90400A9562C /* Tab1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tab1.storyboard; sourceTree = "<group>"; };
+		AFD1FCB41E6FA91400A9562C /* Tab2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tab2.storyboard; sourceTree = "<group>"; };
+		AFD1FCB61E6FA92000A9562C /* Tab3.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tab3.storyboard; sourceTree = "<group>"; };
+		AFD1FCB81E6FBD7F00A9562C /* TGCToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TGCToastView.swift; path = Demo1/TGCToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,8 @@
 		AFD1FC921E6F9EF700A9562C = {
 			isa = PBXGroup;
 			children = (
+				AFD1FCBA1E6FBD9000A9562C /* View */,
+				AFD1FCB11E6FA8D100A9562C /* StoryBoard */,
 				AFD1FC9D1E6F9EF800A9562C /* Demo1 */,
 				AFD1FC9C1E6F9EF800A9562C /* Products */,
 			);
@@ -56,12 +66,30 @@
 			children = (
 				AFD1FC9E1E6F9EF800A9562C /* AppDelegate.swift */,
 				AFD1FCA01E6F9EF800A9562C /* ViewController.swift */,
-				AFD1FCA21E6F9EF800A9562C /* Main.storyboard */,
 				AFD1FCA51E6F9EF800A9562C /* Assets.xcassets */,
-				AFD1FCA71E6F9EF800A9562C /* LaunchScreen.storyboard */,
 				AFD1FCAA1E6F9EF800A9562C /* Info.plist */,
 			);
 			path = Demo1;
+			sourceTree = "<group>";
+		};
+		AFD1FCB11E6FA8D100A9562C /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AFD1FCA71E6F9EF800A9562C /* LaunchScreen.storyboard */,
+				AFD1FCA21E6F9EF800A9562C /* Main.storyboard */,
+				AFD1FCB21E6FA90400A9562C /* Tab1.storyboard */,
+				AFD1FCB41E6FA91400A9562C /* Tab2.storyboard */,
+				AFD1FCB61E6FA92000A9562C /* Tab3.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		AFD1FCBA1E6FBD9000A9562C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFD1FCB81E6FBD7F00A9562C /* TGCToastView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD1FCB71E6FA92000A9562C /* Tab3.storyboard in Resources */,
+				AFD1FCB51E6FA91400A9562C /* Tab2.storyboard in Resources */,
 				AFD1FCA91E6F9EF800A9562C /* LaunchScreen.storyboard in Resources */,
 				AFD1FCA61E6F9EF800A9562C /* Assets.xcassets in Resources */,
+				AFD1FCB31E6FA90400A9562C /* Tab1.storyboard in Resources */,
 				AFD1FCA41E6F9EF800A9562C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD1FCA11E6F9EF800A9562C /* ViewController.swift in Sources */,
+				AFD1FCB91E6FBD7F00A9562C /* TGCToastView.swift in Sources */,
 				AFD1FC9F1E6F9EF800A9562C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +183,7 @@
 				AFD1FCA31E6F9EF800A9562C /* Base */,
 			);
 			name = Main.storyboard;
+			path = Demo1;
 			sourceTree = "<group>";
 		};
 		AFD1FCA71E6F9EF800A9562C /* LaunchScreen.storyboard */ = {
@@ -159,6 +192,7 @@
 				AFD1FCA81E6F9EF800A9562C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = Demo1;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -302,6 +336,7 @@
 				AFD1FCAF1E6F9EF800A9562C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
