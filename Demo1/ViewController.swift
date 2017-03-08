@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        self.view.tgc_makeToast(message: "你好", duration: 1, position: .bottom)
         initView()
     }
     

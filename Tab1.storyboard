@@ -12,7 +12,7 @@
         <!--Recent-->
         <scene sceneID="k6D-VX-2ic">
             <objects>
-                <tableViewController id="mtl-hF-YRG" sceneMemberID="viewController">
+                <tableViewController id="mtl-hF-YRG" customClass="TabViewController1" customModule="Demo1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="650-iP-e9d">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,13 +24,58 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Recent" id="Jug-N3-fh8">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="lR3-GF-CTi"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="lR3-GF-CTi">
+                            <connections>
+                                <segue destination="TB1-nW-vfM" kind="show" id="34L-LK-7o2"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="buttonNext" destination="lR3-GF-CTi" id="def-Sn-T4X"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cr-Dq-Ijf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="446" y="98"/>
+            <point key="canvasLocation" x="262" y="98"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="l6P-QO-7ZB">
+            <objects>
+                <viewController id="TB1-nW-vfM" customClass="TableViewDetailControllerViewController" customModule="Demo1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W5A-Tf-XF8"/>
+                        <viewControllerLayoutGuide type="bottom" id="19R-Fu-TdD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rLL-kI-zVT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bw2-G9-hJW">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" id="8xN-VR-5Ry">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="BdJ-Jf-hFb">
+                                            <rect key="frame" x="16" y="7" width="121" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="我的素材"/>
+                                                <segment title="其他素材"/>
+                                            </segments>
+                                        </segmentedControl>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="YW7-Ok-wCg"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bg0-ZU-NIz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1049" y="98"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ai2-5c-lfM">

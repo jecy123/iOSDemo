@@ -16,6 +16,8 @@
 		AFD1FCB51E6FA91400A9562C /* Tab2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1FCB41E6FA91400A9562C /* Tab2.storyboard */; };
 		AFD1FCB71E6FA92000A9562C /* Tab3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1FCB61E6FA92000A9562C /* Tab3.storyboard */; };
 		AFD1FCB91E6FBD7F00A9562C /* TGCToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1FCB81E6FBD7F00A9562C /* TGCToastView.swift */; };
+		AFD1FCD11E700E7400A9562C /* TabViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1FCD01E700E7400A9562C /* TabViewController1.swift */; };
+		AFD1FCD31E70105000A9562C /* TableViewDetailControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1FCD21E70105000A9562C /* TableViewDetailControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		AFD1FCB41E6FA91400A9562C /* Tab2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tab2.storyboard; sourceTree = "<group>"; };
 		AFD1FCB61E6FA92000A9562C /* Tab3.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tab3.storyboard; sourceTree = "<group>"; };
 		AFD1FCB81E6FBD7F00A9562C /* TGCToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TGCToastView.swift; path = Demo1/TGCToastView.swift; sourceTree = "<group>"; };
+		AFD1FCD01E700E7400A9562C /* TabViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController1.swift; sourceTree = "<group>"; };
+		AFD1FCD21E70105000A9562C /* TableViewDetailControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDetailControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				AFD1FCB81E6FBD7F00A9562C /* TGCToastView.swift */,
+				AFD1FCD01E700E7400A9562C /* TabViewController1.swift */,
+				AFD1FCD21E70105000A9562C /* TableViewDetailControllerViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 			files = (
 				AFD1FCA11E6F9EF800A9562C /* ViewController.swift in Sources */,
 				AFD1FCB91E6FBD7F00A9562C /* TGCToastView.swift in Sources */,
+				AFD1FCD31E70105000A9562C /* TableViewDetailControllerViewController.swift in Sources */,
+				AFD1FCD11E700E7400A9562C /* TabViewController1.swift in Sources */,
 				AFD1FC9F1E6F9EF800A9562C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
